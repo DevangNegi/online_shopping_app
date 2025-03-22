@@ -3,4 +3,4 @@ WORKDIR app
 COPY . .
 RUN npm install
 EXPOSE 5173
-RUN ["npm","start"]
+CMD ["npm","run","dev"]
